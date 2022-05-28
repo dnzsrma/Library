@@ -1,0 +1,54 @@
+#header{
+    text-align: center;
+    font-size: 2rem;
+    background-color: brown;
+    color: burlywood;
+}
+body{
+    background-color: brown;
+}
+#container{
+    display: flex;
+}
+
+#FormDiv{
+    background-color: burlywood;
+    width: 150px;
+    height: 300px;
+    margin: 10px;
+    align-items: center;
+    border: 8px solid sienna;
+}
+#addBookForm{
+    display:flex;
+    flex-direction: column;
+      
+}
+.formTitle{
+    margin-bottom: 1px;
+}
+.formItem{
+    margin-left: 10px ;
+    margin-right: 10px ;
+}
+#formSubmit{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#addBook{
+    margin-top: 5px;
+    height: 40px;
+    width : 120px;
+    background-color: sienna;
+    font-style: bold;
+    color: white;
+}
+.cardContainer{
+    position: relative;
+    top:100px;  
+    margin: 10px;
+    background-color: burlywood;
+    padding: 80px ;
+    max-width: 90px;
+    border: 8px solid sienna;
+}
